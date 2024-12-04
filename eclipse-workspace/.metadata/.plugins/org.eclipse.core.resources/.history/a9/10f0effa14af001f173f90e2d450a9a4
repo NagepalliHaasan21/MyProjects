@@ -1,0 +1,10 @@
+package com.RestaurantDAO.interfaces;
+
+public interface RestaurantDAO
+{
+	int insertRes(Restaurant r);
+	int deleteRes(int restaurantid);
+	ArrayList<Restaurant> fetchAllRes();
+	Restaurant fetchRes(int restaurantid);
+	int updateRestOnId(Restaurant r);
+}

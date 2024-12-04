@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Enter data</title>
+</head>
+<body>
+	<form action="CollectData">
+		Name <input type="text" name="name"> 
+		Email <input type="text" name="email"> 
+		<input type="submit" value="Send Data"> 
+	</form>
+</body>
+</html>
+

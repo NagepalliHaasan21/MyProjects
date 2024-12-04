@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=IndianServices/src&lt;com.tap.interfaces{Services.java[Services" modifiers="513" timestamp="1732020130695"/>
+    <typeInfo handle="=daoexmp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dao.interfaces{StudentDAO.java[StudentDAO" modifiers="513" timestamp="1732205907506"/>
+    <typeInfo handle="=user/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.foodapp.dao.interfaces{UserDAO.java[UserDAO" modifiers="513" timestamp="1732969009183"/>
+    <typeInfo handle="=Restaurant/C:\/Users\/DELL\/.m2\/repository\/com\/google\/protobuf\/protobuf-java\/3.21.9\/protobuf-java-3.21.9.jar=/maven.pomderived=/true=/=/javadoc_location=/jar:file:\/C:\/Users\/DELL\/.m2\/repository\/com\/google\/protobuf\/protobuf-java\/3.21.9\/protobuf-java-3.21.9-javadoc.jar\!\/=/=/maven.groupId=/com.google.protobuf=/=/maven.artifactId=/protobuf-java=/=/maven.version=/3.21.9=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;com.google.protobuf(DescriptorProtos$DescriptorProto$ReservedRangeOrBuilder.class[ReservedRangeOrBuilder" modifiers="1545" timestamp="1731310989274"/>
+    <typeInfo handle="=OrderItems/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.OrderItemsDAO.interfaces{OrderItemsDAO.java[OrderItemsDAO" modifiers="513" timestamp="1732969263918"/>
+    <typeInfo handle="=OrderHistory/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.OrderHistoryDAO.interfaces{OrderHistory.java[OrderHistory" modifiers="513" timestamp="1732969564639"/>
+    <typeInfo handle="=menu/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.menuDAO.interfaces{MenuDAO.java[MenuDAO" modifiers="513" timestamp="1732969703124"/>
+    <typeInfo handle="=menu/C:\/Program Files\/Java\/jdk-23\/lib\/jrt-fs.jar`java.desktop=/maven.pomderived=/true=/&lt;java.awt.peer(MenuComponentPeer.class[MenuComponentPeer" modifiers="1537" timestamp="1728460907946"/>
+</typeInfoHistroy>

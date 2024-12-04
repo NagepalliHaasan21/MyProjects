@@ -1,0 +1,6 @@
+package com.OrderHistoryDAO.model;
+
+public class OrderHistory 
+{
+
+}

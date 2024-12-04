@@ -1,0 +1,5 @@
+package com.OrderItemsDAO.model;
+
+public class OrderItems {
+
+}

@@ -1,0 +1,12 @@
+package com.menuDAO.model;
+
+public class Menu 
+{
+	private int menuId;
+	private int restId;
+	private String menuName;
+	private float price;
+	private String description;
+	private boolean isAvailable;
+	private String imagepath;
+}

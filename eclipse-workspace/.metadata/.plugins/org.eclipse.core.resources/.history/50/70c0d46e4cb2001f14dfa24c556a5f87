@@ -1,0 +1,57 @@
+package com.jee.Servlet;
+
+import java.io.IOException;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class CollectData extends HttpServlet 
+{
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException 
+	{
+		String name = req.getParameter("name");
+		String email = req.getParameter("email");
+		
+//		StringBuffer sb = new StringBuffer();
+//		
+//		for(int i=0;i<name.length();i++)
+//		{
+//			sb.append((char)(name.charAt(i)+2));	
+//		}
+//		System.out.println();
+		StringBuffer encryptName = encrypt(name);
+		StringBuffer encryptEmail = encrypt(email);
+		
+		resp.getWriter().println("Encrypted Data\n"+encryptName +"    "+ encryptEmail+"\n\n");
+		
+		StringBuffer decryptName = decrypt(name);
+		StringBuffer decryptEmail = decrypt(email);
+		
+		resp.getWriter().println("Decrypted Data\n"+decryptName +"    "+ decryptEmail+"\n\n");
+	}
+	
+	StringBuffer encrypt(String str)
+	{
+		StringBuffer sb = new StringBuffer();
+		
+		for(int i=0;i<str.length();i++)
+		{
+			sb.append((char)(str.charAt(i)+2));	
+		}
+		return sb;
+	}
+	
+	StringBuffer decrypt(String str)
+	{
+		StringBuffer sb = new StringBuffer();
+		
+		for(int i=0;i<str.length();i++)
+		{
+			sb.append((char)(str.charAt(i)-2));	
+		}
+		return sb;
+	}
+}

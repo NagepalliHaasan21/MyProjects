@@ -1,0 +1,12 @@
+package com.jee.Servlet;
+
+import jakarta.servlet.http.HttpServlet;
+
+/**
+ * Servlet implementation class CollectData
+ */
+
+public class CollectData extends HttpServlet 
+{
+	
+}

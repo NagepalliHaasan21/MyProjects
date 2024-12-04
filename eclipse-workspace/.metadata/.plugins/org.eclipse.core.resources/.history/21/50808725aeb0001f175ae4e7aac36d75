@@ -1,0 +1,19 @@
+<%@ page import="jakarta.servlet.http.HttpSession" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <h1>Hello <% out.println(session.getAttribute("name")); %></h1>
+    <p>
+    	Email : <% out.println(session.getAttribute("email")); %> <br>
+    	Mobile : <% out.println(session.getAttribute("mobile")); %> <br>
+    	Address : <% out.println(session.getAttribute("address")); %> <br>
+    	City : <% out.println(session.getAttribute("city")); %> <br>
+    
+    </p>
+</body>
+</html>

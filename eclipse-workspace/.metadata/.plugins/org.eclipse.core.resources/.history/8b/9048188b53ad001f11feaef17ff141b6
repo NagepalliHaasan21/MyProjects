@@ -1,0 +1,8 @@
+package com.OrderItemsDAO.Impl;
+
+import com.OrderItemsDAO.interfaces.OrderItemsDAO;
+
+public class OrderItemsDAOImpl implements OrderItemsDAO
+{
+
+}

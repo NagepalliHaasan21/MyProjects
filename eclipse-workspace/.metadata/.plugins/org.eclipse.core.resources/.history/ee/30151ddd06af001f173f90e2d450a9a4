@@ -1,0 +1,6 @@
+package com.menuDAO.model;
+
+public class Menu 
+{
+
+}

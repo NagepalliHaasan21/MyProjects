@@ -1,0 +1,6 @@
+package com.foodapp.dao.model;
+
+public class User
+{
+	
+}

@@ -1,0 +1,7 @@
+package com.RestaurantDAOImpl;
+
+import com.RestaurantDAO.interfaces.RestaurantDAO;
+
+public class RestaurantDAOImpl implements RestaurantDAO {
+
+}

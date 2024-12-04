@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        text-align: center;
+        background-color: #ffffff;
+        padding: 30px 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+        color: #333;
+        font-size: 24px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form input[type="text"],
+    form input[type="password"],
+    form input[type="submit"] {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    form input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    p a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    p a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login Page</h1>
+        <form action="LoginServlet" method="post">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            
+            <input type="submit" value="Login">
+        </form>
+        <p>If you are a new user, <a href="index.html">Register here</a></p>
+    </div>
+</body>
+</html>

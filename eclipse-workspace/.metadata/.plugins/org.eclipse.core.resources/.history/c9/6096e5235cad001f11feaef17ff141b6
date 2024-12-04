@@ -1,0 +1,5 @@
+package com.OrderHistoryDAO.interfaces;
+
+public interface OrderHistory {
+
+}

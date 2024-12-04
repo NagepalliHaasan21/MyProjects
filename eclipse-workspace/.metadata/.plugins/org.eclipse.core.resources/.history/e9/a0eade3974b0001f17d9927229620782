@@ -1,0 +1,7 @@
+package com.menuDAO.impl;
+
+import com.menuDAO.interfaces.MenuDAO;
+
+public class MenuDAOImpl implements MenuDAO {
+
+}

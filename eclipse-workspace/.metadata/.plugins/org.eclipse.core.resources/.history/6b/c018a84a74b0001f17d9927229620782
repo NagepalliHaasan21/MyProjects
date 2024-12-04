@@ -1,0 +1,8 @@
+package com.OrderHistoryDAO.Impl;
+
+import com.OrderHistoryDAO.interfaces.OrderHistory;
+
+public class OrderHistoryImpl implements OrderHistory
+{
+
+}

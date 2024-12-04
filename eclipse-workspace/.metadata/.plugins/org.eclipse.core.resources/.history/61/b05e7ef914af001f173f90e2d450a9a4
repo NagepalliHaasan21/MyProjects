@@ -1,0 +1,10 @@
+package com.foodapp.dao.interfaces;
+
+public interface UserDAO
+{
+	int insertUser(User u);
+	int deleteUser(String email);
+	ArrayList<User> fetchAllUsers();
+	User fetchUser(String email);
+	int updateUser(String email,String password);
+}

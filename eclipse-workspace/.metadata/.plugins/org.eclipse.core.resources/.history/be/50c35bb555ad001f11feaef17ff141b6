@@ -1,0 +1,10 @@
+package com.OrderItemsDAO.model;
+
+public class OrderItems 
+{
+	private int orderItemsid;
+	private int ordersid;
+	private int menuid;
+	private int	quantity;
+	private int itemtotal;
+}

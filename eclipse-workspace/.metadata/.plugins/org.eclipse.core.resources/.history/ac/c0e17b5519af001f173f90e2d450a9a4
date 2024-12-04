@@ -1,0 +1,8 @@
+package com.foodappDAOImpl;
+
+import com.foodapp.dao.interfaces.UserDAO;
+
+public class UserDAOImpl implements UserDAO 
+{
+	
+}

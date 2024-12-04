@@ -1,0 +1,6 @@
+package com.OrderItemsDAO.interfaces;
+
+public interface OrderItemsDAO
+{
+
+}

@@ -1,0 +1,38 @@
+package com.tap;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/LoginServlet")
+public class LoginServlet extends HttpServlet
+{
+	String url = "jdbc:mysql://localhost:3306/practice";
+	String dbUn = "root";
+	String dbPwd = "Haasan@21";
+	private Connection con;
+	
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
+	{
+		String email = req.getParameter("email");
+		String password = req.getParameter("password");
+		
+		try
+		{
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			con = DriverManager.getConnection(url,dbUn,dbPwd);
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+}

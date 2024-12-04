@@ -1,0 +1,8 @@
+package com.jee.classes;
+
+import jakarta.servlet.http.HttpServlet;
+
+public class Validate extends HttpServlet 
+{
+	
+}
